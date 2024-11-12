@@ -1,5 +1,10 @@
 {
   "mappings": [
-    "/content/nissan/:/"
+    "/content/nissan/:/",
+    "/content/nissan/configuration:/.helix/config.json",
+    "/content/nissan/metadata:/metadata.json"
+  ],
+  "includes": [
+    "/content/nissan/"
   ]
 }
